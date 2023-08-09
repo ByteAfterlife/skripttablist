@@ -1,0 +1,28 @@
+#Sets tab header and footer
+every 8 seconds:
+	loop all players:
+		set tab header to "&dYour server name" and footer to "&aHi there, &d%loop-player%&a!" for loop-player
+		wait 1 seconds
+		set tab header to "&dYour server name" and footer to "&aHi there, &c%loop-player%&a!" for loop-player
+		wait 1 seconds
+		set tab header to "&dYour server name" and footer to "&aHi there, &6%loop-player%&a!" for loop-player
+		wait 1 seconds
+		set tab header to "&dYour server name" and footer to "&aHi there, &e%loop-player%&a!" for loop-player
+		wait 1 seconds
+		set tab header to "&dYour server name" and footer to "&aHi there, &a%loop-player%&a!" for loop-player
+		wait 1 seconds
+		set tab header to "&dYour server name" and footer to "&aHi there, &9%loop-player%&a!" for loop-player
+		wait 1 seconds
+		set tab header to "&dYour server name" and footer to "&aHi there, &b%loop-player%&a!" for loop-player
+		wait 1 seconds
+		set tab header to "&dYour server name" and footer to "&aHi there, &5%loop-player%&a!" for loop-player
+		wait 1 seconds
+		set tab header to "&dYour server name" and footer to "&aHi there, &d%loop-player%&a!" for loop-player
+		
+		
+		
+		
+#Sets the player names to their display name				
+every 0.5 seconds:
+	loop all players:
+		set loop-player tab name to loop-player's display name
